@@ -1,12 +1,14 @@
 $(document).ready(function() {
     /*Global Variables
     ==============================================================*/
-    var topics = ['cats', 'dogs', 'animals', 'safari','sanrio'];
+    var topics = ['cats', 'dogs', 'fish', 'chickens','sanrio'];
     var stillImgUrl = '';
     var animateImgUrl = '';
     var gifCondition = '';
     var stillUrl = '';
     var animateUrl = '';
+
+
     /*Functions
     ==============================================================*/
     var createBtn= function() {
@@ -16,23 +18,25 @@ $(document).ready(function() {
         for (var i = 0; i < topics.length; i++) {
             //Creates new buttons
             var newBtn = $('<button>');
-            //Give button an attribute // COME BACK TO THIS*********
+            //Give button an attribute 
             newBtn.attr('data-name', topics[i]);
             //Add class to button
             newBtn.attr('class', 'gif');
-            //Give button name that reflext array
+            //Give button name 
             newBtn.text(topics[i]);
             //Add button to DOM
             $('#btn-section').append(newBtn);
         }
     }
 
-//When submit button is clicked ...............
+
+//When submit button is clicked 
 $('#submit-btn').on('click', function(event) {
     submit();
 });
 
-//When Enter is pressed............
+
+//When Enter is pressed
 $(".search").keydown(function(event){
     if(event.keyCode == 13){
         console.log("working");
@@ -45,7 +49,7 @@ $(".search").keydown(function(event){
 
     var submit = function() {
             event.preventDefault();
-            //Get input text value
+            //Retrieve input text value
             var inputVal = $('#userInput').val();
             //push user input to array
             topics.push(inputVal);
