@@ -8,3 +8,9 @@ Requirements:
 User can search for their favorite Giphy and new button will be created.
 
 View: https://restimirandanu.github.io/GifTastic/
+
+
+Screen shot:
+
+
+
