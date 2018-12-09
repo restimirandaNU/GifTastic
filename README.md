@@ -13,4 +13,18 @@ View: https://restimirandanu.github.io/GifTastic/
 Screen shot:
 
 
+![giftasticimage](https://user-images.githubusercontent.com/43328718/49694297-6af08000-fb4d-11e8-9960-ca86dc145f8a.PNG)
+
+
+User can input new animal and when button is clicked, creates gifs of that animal.
+
+Technologies used
+Bootstrap
+jQuery
+Giphy API
+
+Authors
+Resti Miranda - HTML/CSS/JS 
+
+
 
